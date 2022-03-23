@@ -1,0 +1,8 @@
+{
+  "description": "A Nim library for biological sequence data.",
+  "license": "MIT",
+  "name": "bio_seq",
+  "ref": "refs/heads/main",
+  "url": "https://github.com/kerrycobb/BioSeq",
+  "version": "main"
+}
