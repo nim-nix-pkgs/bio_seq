@@ -36,10 +36,11 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-bio_seq-main": "src-bio_seq-main"
+        "src-bioseq-main": "src-bioseq-main",
+        "zip": "zip"
       }
     },
-    "src-bio_seq-main": {
+    "src-bioseq-main": {
       "flake": false,
       "locked": {
         "lastModified": 1636665141,
@@ -53,6 +54,50 @@
         "owner": "kerrycobb",
         "ref": "refs/heads/main",
         "repo": "BioSeq",
+        "type": "github"
+      }
+    },
+    "src-zip-0_3_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1594106081,
+        "narHash": "sha256-NRnBaul2wZjOZVCSx8ic6c6/LNK83s1SMFZoBX85CeE=",
+        "owner": "nim-lang",
+        "repo": "zip",
+        "rev": "bdc5783fefc1afb8eb622ff13d464a832ce1d507",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-lang",
+        "ref": "refs/tags/0.3.1",
+        "repo": "zip",
+        "type": "github"
+      }
+    },
+    "zip": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-zip-0_3_1": "src-zip-0_3_1"
+      },
+      "locked": {
+        "dir": "0_3_1",
+        "lastModified": 1647935082,
+        "narHash": "sha256-jd63qUnp/pzBG4WUpU8FHnflQz3lMZRlA9uRgjRiPR8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "zip",
+        "rev": "75b5cbd51e9ab1bea6df5906715d6c69a995847f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_3_1",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "zip",
         "type": "github"
       }
     }
