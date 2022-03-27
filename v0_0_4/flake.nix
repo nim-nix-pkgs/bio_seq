@@ -11,6 +11,7 @@
   inputs.src-bio_seq-v0_0_4.ref   = "refs/tags/v0.0.4";
   inputs.src-bio_seq-v0_0_4.owner = "kerrycobb";
   inputs.src-bio_seq-v0_0_4.repo  = "BioSeq";
+  inputs.src-bio_seq-v0_0_4.dir   = "";
   inputs.src-bio_seq-v0_0_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

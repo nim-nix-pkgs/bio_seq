@@ -11,6 +11,7 @@
   inputs.src-bioseq-main.ref   = "refs/heads/main";
   inputs.src-bioseq-main.owner = "kerrycobb";
   inputs.src-bioseq-main.repo  = "BioSeq";
+  inputs.src-bioseq-main.dir   = "";
   inputs.src-bioseq-main.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";

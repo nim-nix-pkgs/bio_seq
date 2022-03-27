@@ -11,6 +11,7 @@
   inputs.src-bioseq-v_0_0_2.ref   = "refs/tags/v.0.0.2";
   inputs.src-bioseq-v_0_0_2.owner = "kerrycobb";
   inputs.src-bioseq-v_0_0_2.repo  = "BioSeq";
+  inputs.src-bioseq-v_0_0_2.dir   = "";
   inputs.src-bioseq-v_0_0_2.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";
