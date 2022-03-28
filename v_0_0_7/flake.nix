@@ -11,7 +11,6 @@
   inputs.src-bio_seq-v_0_0_7.ref   = "refs/tags/v.0.0.7";
   inputs.src-bio_seq-v_0_0_7.owner = "kerrycobb";
   inputs.src-bio_seq-v_0_0_7.repo  = "BioSeq";
-  inputs.src-bio_seq-v_0_0_7.dir   = "";
   inputs.src-bio_seq-v_0_0_7.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";

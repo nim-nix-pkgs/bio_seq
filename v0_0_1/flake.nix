@@ -11,7 +11,6 @@
   inputs.src-nim_seq-v0_0_1.ref   = "refs/tags/v0.0.1";
   inputs.src-nim_seq-v0_0_1.owner = "kerrycobb";
   inputs.src-nim_seq-v0_0_1.repo  = "BioSeq";
-  inputs.src-nim_seq-v0_0_1.dir   = "";
   inputs.src-nim_seq-v0_0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
